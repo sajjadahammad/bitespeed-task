@@ -160,7 +160,7 @@ export default function FlowBuilder() {
           onNodesChange={onNodesChange}
           onEdgesChange={onEdgesChange}
           onConnect={onConnect}
-          onNodeClick={onNodeClick}
+          onNodeClick={(_event, node) => onNodeClick(node)}
           onPaneClick={onPaneClick}
           onDrop={onDrop}
           onDragOver={onDragOver}
