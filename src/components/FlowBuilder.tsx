@@ -92,7 +92,7 @@ export default function FlowBuilder() {
   )
 
   // Callback for when a node is clicked
-  const onNodeClick = useCallback((event: React.MouseEvent, node: Node) => {
+  const onNodeClick = useCallback(( node: Node) => {
     setSelectedNode(node)
   }, [])
 
