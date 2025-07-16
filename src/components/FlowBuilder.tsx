@@ -165,7 +165,8 @@ export default function FlowBuilder() {
           onDrop={onDrop}
           onDragOver={onDragOver}
           nodeTypes={nodeTypes} // Register custom node types
-          fitView // Fit the view to the nodes on load
+          defaultViewport={{ x: 0, y: 0, zoom: 1 }}
+  
         >
           <MiniMap /> {/* Mini-map for navigation */}
           <Controls /> {/* Controls for zoom, pan, etc. */}

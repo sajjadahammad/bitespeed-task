@@ -9,7 +9,7 @@ export default function NodesPanel() {
   }
 
   return (
-    <div className="p-4 border-l bg-gray-50 h-full flex flex-col gap-4">
+    <div className="p-4 border-l bg-gray-50 h-full flex flex-col gap-4 w-80">
       <h2 className="text-lg font-semibold mb-2">Nodes Panel</h2>
       <Card
         className="cursor-grab active:cursor-grabbing"

@@ -30,14 +30,14 @@ export default function SettingsPanel({ selectedNode, onMessageChange }: Setting
 
     if (!selectedNode) {
         return (
-            <div className="p-4 border-l bg-gray-50 h-full flex flex-col gap-4">
+            <div className="p-4 border-l bg-gray-50 h-full flex flex-col gap-4 w-80">
                 <h2 className="text-lg font-semibold mb-2">Settings Panel</h2>
                 <p className="text-sm text-gray-500">Select a node to view its settings.</p>
             </div>
         )
     }
     return (
-        <div className="p-4 border-l bg-gray-50 h-full flex flex-col gap-4">
+        <div className="p-4 border-l bg-gray-50 h-full flex flex-col gap-4 w-80">
             <h2 className="text-lg font-semibold mb-2">Settings Panel</h2>
             <Card>
                 <CardHeader className="p-3 pb-2">
